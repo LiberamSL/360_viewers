@@ -1,0 +1,135 @@
+﻿	<krpano version="1.21" title="360">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- set optional skin logo url -->
+	<layer name="skin_logo" url="logo.png" scale="0.25" keep="true" onclick="openurl('https://liberam.es')" enabled="false" align="lefttop" x="10" y="0"/>
+
+	<scene name="scene_2" title="2" onstart="" thumburl="panos/2.tiles/thumb.jpg" lat="38.61973511" lng="-0.10620789" alt="142.99" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_5" title="5" onstart="" thumburl="panos/5.tiles/thumb.jpg" lat="38.61973689" lng="-0.10620733" alt="145.99" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/5.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/5.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_10" title="10" onstart="" thumburl="panos/10.tiles/thumb.jpg" lat="38.61973525" lng="-0.10620878" alt="150.99" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/10.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/10.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_15" title="15" onstart="" thumburl="panos/15.tiles/thumb.jpg" lat="38.61973250" lng="-0.10620558" alt="155.19" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/15.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/15.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20" title="20" onstart="" thumburl="panos/20.tiles/thumb.jpg" lat="38.61971881" lng="-0.10621103" alt="160.69" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_25" title="25" onstart="" thumburl="panos/25.tiles/thumb.jpg" lat="38.61972050" lng="-0.10620508" alt="165.49" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/25.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/25.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_30" title="30" onstart="" thumburl="panos/30.tiles/thumb.jpg" lat="38.61972356" lng="-0.10620256" alt="170.49" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/30.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/30.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_35" title="35" onstart="" thumburl="panos/35.tiles/thumb.jpg" lat="38.61972767" lng="-0.10620694" alt="175.29" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/35.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/35.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_40" title="40" onstart="" thumburl="panos/40.tiles/thumb.jpg" lat="38.61973250" lng="-0.10620219" alt="181.49" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/40.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/40.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+	</scene>
+
+
+</krpano>
